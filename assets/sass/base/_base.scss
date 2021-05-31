@@ -3,7 +3,7 @@
 }
 
 body {
-    font-family: monospace;
+    font-family: $rmono;
 }
 
 .contenedor {
@@ -14,7 +14,7 @@ body {
 .menu {
     width: 960px;
     padding: 10px;
-    border-bottom: 1px solid gray
+    border-bottom: 1px solid $gray;
 }
 
 .logo {
@@ -74,11 +74,11 @@ body {
 
 .cabecera-listado {
     width: 220px;
-    border-bottom: 1px solid gray;
+    border-bottom: 1px solid $gray;
 }
 
 .tags {
-    border-bottom: 1px solid gray;
+    border-bottom: 1px solid $gray;
 }
 
 .tags ul {
@@ -88,9 +88,9 @@ body {
 
 .tags ul li {
     padding: 2px 4px;
-    background-color: steelblue;
+    background-color: $steelblue;
     margin-right: 1px;
-    color: white;
+    color: $white;
 }
 
 .noticias-destacadas {
@@ -105,7 +105,7 @@ body {
 
 .newsletter {
     width: 960px;
-    background-color: #f2f4f5;
+    background-color: $light-white;
     text-align: center;
     padding-top: 30px;
     padding-bottom: 30px;
@@ -125,8 +125,8 @@ body {
 }
 
 .group button {
-    background-color: coral;
-    color: white;
+    background-color: $coral;
+    color: $white;
 }
 
 .footer {

@@ -1,9 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;400;700&display=swap");
 * {
   box-sizing: border-box;
 }
 
 body {
-  font-family: monospace;
+  font-family: "Roboto Mono", monospace;
 }
 
 .contenedor {
@@ -14,7 +15,7 @@ body {
 .menu {
   width: 960px;
   padding: 10px;
-  border-bottom: 1px solid gray;
+  border-bottom: 1px solid #808080;
 }
 
 .logo {
@@ -72,11 +73,11 @@ body {
 
 .cabecera-listado {
   width: 220px;
-  border-bottom: 1px solid gray;
+  border-bottom: 1px solid #808080;
 }
 
 .tags {
-  border-bottom: 1px solid gray;
+  border-bottom: 1px solid #808080;
 }
 
 .tags ul {
@@ -86,9 +87,9 @@ body {
 
 .tags ul li {
   padding: 2px 4px;
-  background-color: steelblue;
+  background-color: #4682b4;
   margin-right: 1px;
-  color: white;
+  color: #fff;
 }
 
 .noticias-destacadas {
@@ -121,14 +122,36 @@ body {
 }
 
 .group button {
-  background-color: coral;
-  color: white;
+  background-color: #ff7f50;
+  color: #fff;
 }
 
 .footer {
   width: 960px;
   margin: 0 auto;
   text-align: center;
+}
+
+p {
+  line-height: 1;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Roboto Mono", monospace;
+  font-weight: 700;
+  line-height: 1;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+h2 {
+  font-size: 25px;
+}
+
+h3 {
+  font-size: 20px;
 }
 
 /*# sourceMappingURL=style.css.map */
